@@ -7,6 +7,7 @@
 ###### - Smallest
 
 ============= Emphasis (Italics, Bold, Strikethrough) =============
+
 *italic* or _italic_
 **bold** __bold__
 ***bold and italic***
@@ -27,6 +28,7 @@
 3. Thrid step
 
 ============= Inline Code (`) =============
+
 To commit, use `git commit -m "message"`
 
 ============= Multi-line Code Blocks (```) =============
