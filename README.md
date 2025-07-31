@@ -1,10 +1,10 @@
 ============= Headings (#) =============
-# - Project title
-## - Section heading
-### - Subsection
-#### - Smaller heading
-##### - Even smaller
-###### - Smallest
+# - Project title (H1)
+## - Section heading (H2)
+### - Subsection (H3)
+#### - Smaller heading (H4)
+##### - Even smaller (H5)
+###### - Smallest (H6)
 
 ============= Emphasis (Italics, Bold, Strikethrough) =============
 
