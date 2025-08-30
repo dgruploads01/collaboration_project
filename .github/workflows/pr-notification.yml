@@ -10,8 +10,10 @@ jobs:
       - name: Send Slack notification
         uses: slackapi/slack-github-action@v1.24.0
         with:
+          # Add the required 'text' field at the root level
           payload: |
             {
+              "text": "New PR: ${{ github.event.pull_request.title }} by ${{ github.event.pull_request.user.login }}",
               "blocks": [
                 {
                   "type": "section",
@@ -47,9 +49,11 @@ jobs:
                       "type": "button",
                       "text": {
                         "type": "plain_text",
-                        "text": "View PR"
+                        "text": "View PR",
+                        "emoji": true
                       },
-                      "url": "${{ github.event.pull_request.html_url }}"
+                      "url": "${{ github.event.pull_request.html_url }}",
+                      "action_id": "button-action"
                     }
                   ]
                 }
