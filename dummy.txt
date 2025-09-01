@@ -1,2 +1,4 @@
 This is a dummy text
 sample data
+
+This is a change for bad commit
