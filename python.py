@@ -10,3 +10,9 @@ for num in numbers:
     print (num)
   else:
     print ("Did not find the number")
+
+### Third change ###
+names = ["one","two","three","four"]
+
+for name in names:
+  print (name)
